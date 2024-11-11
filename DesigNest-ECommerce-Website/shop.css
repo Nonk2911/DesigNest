@@ -1,0 +1,96 @@
+/* Shop Page CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #000000;
+  }
+  
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #990000;
+    text-decoration: none;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+  }
+
+  .cart-button {
+    background-color: #d1c4e9;
+    color: #000000;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .categories {
+    margin-bottom: 20px;
+  }
+  
+  .categories-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .categories-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories-item {
+    margin-bottom: 5px;
+  }
+  
+  .price {
+    margin-bottom: 20px;
+  }
+  
+  .price-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .price-range {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: 23%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  

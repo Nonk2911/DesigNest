@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - DesigNest</title>
+  <link rel="stylesheet" href="shop.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="logo">DesigNest</a>
+    <nav>
+      <a href="shop.html">Shop</a>
+      <a href="signup.html">Signup</a>
+      <a href="login.html">Login</a>
+      <a href="cart.html" class="cart-button">Cart</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Sidebar for Categories and Price Range -->
+    <aside>
+      <h2>Categories</h2>
+      <ul>
+        <li><input type="checkbox"> T-shirts</li>
+        <li><input type="checkbox"> Pants</li>
+        <li><input type="checkbox"> Shorts</li>
+        <li><input type="checkbox"> Jeans</li>
+      </ul>
+      
+      <h2>Price</h2>
+      <input type="range" min="100" max="10000" step="100">
+      <p>₹100 - ₹10,000 +</p>
+    </aside>
+
+    <!-- Products Section -->
+    <section>
+      <div class="sort">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+          <option value="recommended">Recommended</option>
+          <!-- Add more sorting options as needed -->
+        </select>
+      </div>
+
+      <div class="products">
+        <!-- Product Item 1 -->
+        <div class="product">
+          <img src="path/to/image1.jpg" alt="Printed Pure Cotton T-shirt">
+          <p>Printed Pure Cotton T-shirt</p>
+          <p><strong>Rs. 670</strong></p>
+        </div>
+
+        <!-- Product Item 2 -->
+        <div class="product">
+          <img src="path/to/image2.jpg" alt="Printed Cotton T-shirt">
+          <p>Printed Cotton T-shirt</p>
+          <p><strong>Rs. 730</strong></p>
+        </div>
+
+        <!-- Product Item 3 -->
+        <div class="product">
+          <img src="path/to/image3.jpg" alt="Solid Lounge T-shirt">
+          <p>Solid Lounge T-shirt</p>
+          <p><strong>Rs. 990</strong></p>
+        </div>
+
+        <!-- Product Item 4 -->
+        <div class="product">
+          <img src="path/to/image4.jpg" alt="Printed Cotton T-shirt">
+          <p>Printed Cotton T-shirt</p>
+          <p><strong>Rs. 1120</strong></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
+
+
